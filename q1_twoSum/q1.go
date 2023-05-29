@@ -17,6 +17,10 @@ func addNumArray(x int, y int) []int {
 	return res
 }
 
+func nothingTest() bool {
+	return false
+}
+
 func twoSum(nums []int, target int) []int {
 	//var res [99]int
 	for i := 0; i < len(nums)-1; i++ {
@@ -45,6 +49,7 @@ func main() {
 	}
 	//fmt.Scanln(&target)
 	twoSum(nums, target)
+	fmt.Println("happy")
 	//fmt.Printf("%d", target)
 	//printArray(nums)
 }
